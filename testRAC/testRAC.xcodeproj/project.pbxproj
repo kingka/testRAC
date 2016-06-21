@@ -16,6 +16,7 @@
 		F920552C1D19739A0054039D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F920552A1D19739A0054039D /* LaunchScreen.storyboard */; };
 		F92055371D19739A0054039D /* testRACTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F92055361D19739A0054039D /* testRACTests.m */; };
 		F92055421D19739A0054039D /* testRACUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F92055411D19739A0054039D /* testRACUITests.m */; };
+		F92055521D1977DF0054039D /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F92055511D1977DF0054039D /* LoginViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		F92055411D19739A0054039D /* testRACUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testRACUITests.m; sourceTree = "<group>"; };
 		F92055431D19739A0054039D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F920554F1D1976390054039D /* GlobalHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalHeader.h; sourceTree = "<group>"; };
+		F92055501D1977DF0054039D /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		F92055511D1977DF0054039D /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,8 @@
 				F920552D1D19739A0054039D /* Info.plist */,
 				F920551C1D19739A0054039D /* Supporting Files */,
 				F920554F1D1976390054039D /* GlobalHeader.h */,
+				F92055501D1977DF0054039D /* LoginViewModel.h */,
+				F92055511D1977DF0054039D /* LoginViewModel.m */,
 			);
 			path = testRAC;
 			sourceTree = "<group>";
@@ -347,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F92055521D1977DF0054039D /* LoginViewModel.m in Sources */,
 				F92055241D19739A0054039D /* ViewController.m in Sources */,
 				F92055211D19739A0054039D /* AppDelegate.m in Sources */,
 				F920551E1D19739A0054039D /* main.m in Sources */,

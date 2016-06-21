@@ -11,6 +11,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *userNameTextField;
+@property (weak, nonatomic) IBOutlet UITextField *pwdTextField;
+@property (weak, nonatomic) IBOutlet UIButton *loginBtn;
 
 @end
 
