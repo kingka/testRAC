@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "GlobalHeader.h"
-
+#import "LoginViewModel.h"
 @interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UITextField *userNameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *pwdTextField;
 @property (weak, nonatomic) IBOutlet UIButton *loginBtn;
-
+@property (nonatomic , strong) LoginViewModel *loginVM;
 @end
 
